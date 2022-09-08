@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- ---------------------------------------------
+Proyect by Maiker Obando - Wash Wonder - Bootstrap
+---------------------------------------------- -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wash Wonder</title>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+
+<body>
+    <header class="fixed-top sticky-top">
+        <nav class="nav_ww">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-1 container" >
+                <a href="" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark">
+                    <img class="bi" src="./assets/logo_ww_blanco.png" width="90Px"><use xlink:href="#bootstrap" />
+                </a>
+    
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 link-light text-white-50">HOME</a></li>
+                    <li><a href="./pages/servicios.html" class="nav-link px-2 link-light text-white-50">SERVICIOS</a></li>
+                    <li><a href="./pages/wonder-shop.html" class="nav-link px-2 link-light text-white-50">WONDER SHOP</a></li>
+                    <li><a href="./pages/cursos.html" class="nav-link px-2 link-light text-white-50">CURSOS</a></li>
+                    <li><a href="./pages/contactos.html" class="nav-link px-2 link-light text-white-50">CONTACTO</a></li>
+                </ul>
+    
+                <div class="col-md-3 text-end rrss">
+                    <a href="https://www.facebook.com/"><img src="./assets/rrss/facebock.svg" width="35px" alt="facebock"></a>
+                    <a href="https://www.instagram.com/"><img src="./assets/rrss/instragram.svg" width="35px" alt="instagram"></a>
+                    <a href="https://www.youtube.com/"><img src="./assets/rrss/youtube.svg" width="35px" alt="yotube"></a>
+                </div>
+            </div>       
+        </nav>
+    </header>
+
+    
+    <main>
+        <!-- Carrusel -->
+        <section id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/imagenes/banner_home_02.jpg" alt="banner principal" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" />
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="ff-ww-Montserrat-bold">Lavado y Detailing Automotriz</h1>
+                            <p>¡Como nunca antes lo habías visto!</p>
+                            <p><a class="btn btn-lg btn-primary" href="/pages/servicios.html">Saber más</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/imagenes/banner_home_03.jpg" alt="banner principal" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" />
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="ff-ww-Montserrat-bold">Wonder Shop</h1>
+                            <p>Variedad de producto de las mejores marcas.</p>
+                            <p><a class="btn btn-lg btn-primary" href="/pages/wonder-shop.html">Ver productos</a></p>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="carousel-item">
+                    <img class="bd-placeholder-img" width="100%" height="100%" src="./assets/imagenes/banner_home_04.jpg" alt="banner principal" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" />
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1 class="ff-ww-Montserrat-bold">Curos y Talleres</h1>
+                            <p>Certificate y aprende con los mejores.</p>
+                            <p><a class="btn btn-lg btn-primary" href="/pages/cursos.html">Ver cursos</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+                
+            <div class="line-gradient"></div>
+        </section>
+        <!-- Carrusel -->
+
+        <!-- Tarjetas en fila -->
+        <section class="container marketing my-5 centrar-textaling">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/imagenes/500x500/500x500_01.jpg" alt="Servicios WW" />
+                    <h2 class="fw-bold text_color-ww-azul">Servicios</h2>
+                    <p>Te ofrecemos los mejores servicios en Detailing para autos de Alta Gama, Clásicos, y los Consentidos de la casa.</p>
+                    <p><a class="btn btn-secondary bt_bg_color-verde" href="/pages/servicios.html">Más info &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/imagenes/500x500/500x500_02.jpg" alt="Servicios WW" />
+        
+                    <h2 class="fw-bold text_color-ww-azul">Wonder Shop</h2>
+                    <p>Las mejores marcas y productos a tu disposición a precios accesibles, y envio a todo el país.</p>
+                    <p><a class="btn btn-secondary bt_bg_color-verde" href="/pages/wonder-shop.html">Más info &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/imagenes/500x500/500x500_03.jpg" alt="Servicios WW" />
+                    <h2 class="fw-bold text_color-ww-azul">Cursos</h2>
+                    <p>Aprende con nuestro equipo certificados y conviertete en un Master Detailing con los cursos y talleres que tenemos a tu disposición.</p>
+                    <p><a class="btn btn-secondary bt_bg_color-verde" href="/pages/cursos.html">Más info &raquo;</a></p>
+                </div>
+            </div>
+        </section>
+        <!-- Tarjetas en fila -->
+        
+        <!-- Algunos Servicios -->
+        <section class="container">
+            <hr class="featurette-divider bc-ww-fucsia mb-4 mt-5">
+        
+            <div class="row featurette align-items-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1 text_color-ww-fucsia">Pulitura y Corrección de pintura. <span class="text-muted">Acabado de espejo.</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, molestias doloremque. Iusto et nulla quis, corrupti consectetur accusantium quam asperiores, nobis ea natus, doloribus aspernatur id! Saepe assumenda id doloribus?</p>
+                </div>
+                <div class="col-md-5">                
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./assets/imagenes/500x500/500x500_04.jpg" alt="" />
+                </div>
+            </div>
+        
+            <hr class="featurette-divider bc-ww-fucsia mb-4 mt-4">
+        
+            <div class="row featurette align-items-center">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1 text_color-ww-fucsia">Detailing Rines. <span class="text-muted">Interior y Exterior.</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus aliquid eius voluptatum! Tempora totam possimus quaerat earum nemo distinctio qui quasi, maxime voluptatum aperiam dicta ipsa vel, sapiente libero debitis.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./assets/imagenes/500x500/500x500_08.jpg" alt="" />
+                </div>
+            </div>
+        
+            <hr class="featurette-divider bc-ww-fucsia mb-4 mt-4">
+        
+            <div class="row featurette align-items-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1 text_color-ww-fucsia">Detailing Tapiceria. <span class="text-muted">Lavado y Restauración.</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci excepturi quas est, totam nisi vel vero, sit quae fuga quo soluta odio asperiores iusto harum quos quam doloribus porro.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./assets/imagenes/500x500/500x500_06.jpg" alt="" />
+                </div>
+            </div>                    
+        </section>        
+         
+    </main>
+
+
+    <footer class="container my-4 mt-5">
+        <div class="line-gradient-solid my-4"></div>
+
+        <div class="d-flex flex-wrap justify-content-between align-items-center my-1">
+            <p class="col-md-4 mb-0 text-muted">&copy;2022 WASH WONDER. Power by <a class="maikerobando-color" href="https://www.instagram.com/maiker23/"><span class="font-weight">Maiker Obando</span></a></p>
+
+            <a href="/index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark">
+                <img src="./assets/logo_ww_negro.png" width="120px"><use xlink:href="#bootstrap" />
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Servicios</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Wonder Shop</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Cursos</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <!-- whatsapp fijo -->
+    <div class="whatsapp-qr">
+        <a href="">
+            <img src="./assets/icons/whatsapp_qr.svg" alt="whastapp" width="150px" />
+        </a>
+    </div>
+
+    <div class="whatsapp-icon">
+        <a href="">
+            <img src="./assets/icons/whatsapp_icon.svg" alt="whastapp" width="80px" />
+        </a>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+/* -----------------------------------------
+ Proyect by Maiker Obando - Wash Wonder
+ --------------------------------------------*/
+
+@font-face {
+    font-family: "Montserrat-Ligth";
+    src: url("../assets/fonts/Montserrat-Light.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../assets/fonts/Montserrat-Bold.ttf");
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url("../assets/fonts/Montserrat-Black.ttf");
+}
+
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Montserrat-Ligth"
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+}
+
+
+/* FRAMEWORK - WashWonder */
+.bg_color-ww-fucsia {
+    background-color: #ec1492;
+}
+
+.bg_color-ww-fucsia-2 {
+    background-color: #E63E8E;
+}
+
+.bg_color-ww-verde {
+    background-color: #50B58B;
+}
+
+.bg_color-ww-morado {
+    background-color: #623883;
+}
+
+.bg_color-ww-azul {
+    background-color: #4D75B8;
+}
+
+.text_color-ww-fucsia {
+    color: #ec1492;
+}
+
+.text_color-ww-verde {
+    color: #50B58B;
+}
+
+.text_color-ww-morado {
+    color: #623883;
+}
+
+.text_color-ww-azul {
+    color: #4D75B8;
+}
+
+.ff-ww-Montserrat-black {
+    font-family: "Montserrat-Black";
+}
+
+.ff-ww-Montserrat-bold {
+    font-family: "Montserrat-Bold";
+}
+
+.ff-ww-Montserrat-ligth {
+    font-family: "Montserrat-Ligth";
+}
+
+.bc-ww-fucsia {
+    border-color: #ec1492;
+}
+
+.bc-ww-verde {
+    border-color: #50B58B;
+}
+
+.bc-ww-morado {
+    border-color: #623883;
+}
+
+.bc-ww-azul {
+    border-color: #4D75B8;
+}
+
+.bg_gradient-ww-fucsia {
+    background-image: linear-gradient(to left, #E63E8E, #9e35ac);
+}
+
+.bg_gradient-ww-fucsia-top {
+    background-image: linear-gradient(to top, #E63E8E, #9625a5);
+}
+/* FRAMEWORK - WashWonder */
+
+
+
+
+
+
+/* Header */
+.nav_ww {
+    border-bottom: #ec1492 2px solid;
+    background-color: rgba(13, 13, 13, 0.94);      
+    z-index: 2;
+    padding: 15px 0px;
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 100);  
+
+}
+
+.rrss img {
+    margin-left: 8px;
+    transition: all 0.2s;
+}
+
+.rrss img:hover {
+    filter: brightness(100%) saturate(0);
+}
+
+.centrar-textaling {
+    text-align: center;
+}
+
+.carousel-control-next-icon {   
+    filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);
+}
+
+.carousel-control-prev-icon {
+    filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);   
+}
+
+.btn-primary {
+    background-color: #ec1492;
+    border-color: #482464;
+}
+
+.bt_bg_color-verde {
+    background-color: #E63E8E;
+    border: #482464;
+}
+
+.maikerobando-color {color: #50B58B;}
+
+/* PAGE / Servicios */
+
+
+
+
+
+
+.line-gradient-solid {
+    /* por si no soporta gradient el navegador */
+    background-color: #482464;
+    background-image: linear-gradient(to left, #E63E8E, #6D4795, #4A77BA, #3CBDE4, #56B584);
+    height: 5px;    
+}
+
+.line-gradient {
+    /* por si no soporta gradient el navegador */
+    background-color: #482464;
+    background-image: linear-gradient(to left, #E63E8E, #6D4795, #4A77BA, #3CBDE4, #56B584);
+    height: 6px;
+    animation: gradient_footer 5s linear infinite;
+}
+
+@keyframes gradient_footer {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100vw 0;
+    }
+}
+
+
+/* whatsapp */
+
+.whatsapp-qr {
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    z-index: 5;
+}
+
+.whatsapp-icon {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {  
+    .whatsapp-qr {
+        display: none;
+    }
+    
+    .whatsapp-icon {
+        display: flex;
+        position: fixed;
+        z-index: 5;
+        bottom: 8px;
+        right: 8px;
+    }
+}
+
+
+
+
+
+
+
+/* CREATE BY MAIKER OBANDO @maiker23 */
