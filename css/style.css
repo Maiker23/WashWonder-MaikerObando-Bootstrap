@@ -121,15 +121,13 @@ h1 {
 /* Header */
 .nav_ww {
     border-bottom: #ec1492 2px solid;
-    background-color: rgba(13, 13, 13, 0.94);      
+    background-color: rgba(13, 13, 13, 0.94);
     z-index: 2;
     padding: 15px 0px;
     box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 100);
 }
 
-.rrss img {
-    /* padding: 5px; */
-    /* margin-left: 8px; */
+.rrss img {    
     transition: all 0.3s;
 }
 
@@ -141,12 +139,12 @@ h1 {
     text-align: center;
 }
 
-.carousel-control-next-icon {   
+.carousel-control-next-icon {
     filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);
 }
 
 .carousel-control-prev-icon {
-    filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);   
+    filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);
 }
 
 .btn-primary {
@@ -160,9 +158,6 @@ h1 {
 }
 
 
-
-.maikerobando-color {color: #50B58B;}
-
 /* PAGE / Servicios */
 
 
@@ -174,7 +169,7 @@ h1 {
     /* por si no soporta gradient el navegador */
     background-color: #482464;
     background-image: linear-gradient(to left, #E63E8E, #6D4795, #4A77BA, #3CBDE4, #56B584);
-    height: 5px;    
+    height: 5px;
 }
 
 .line-gradient {
@@ -202,35 +197,45 @@ h1 {
     position: fixed;
     bottom: 8px;
     right: 8px;
-    z-index: 5;
+    z-index: 5;   
+    scale: 0%;
+    animation: whatsapp 2s both;
 }
 
 .whatsapp-icon {
     display: none;
+    scale: 0%;   
+    animation: whatsapp 2s both;
+
+}
+
+@keyframes whatsapp {
+    0% {        
+        scale: 0%;
+    }
+    80% {       
+        scale: 0%;
+    }
+    95% {        
+        scale: 105%;
+    }
+    100% {      
+        scale: 100%;
+    }
 }
 
 
-
-
-
-@media (max-width: 768px) {  
+@media (max-width: 768px) {
     .whatsapp-qr {
         display: none;
     }
-    
+
     .whatsapp-icon {
         display: flex;
         position: fixed;
         z-index: 5;
         bottom: 8px;
         right: 8px;
-    }
-}
-
-
-@media (max-width: 375px) {  
-    .rrss {
-        display: none;
     }
 }
 

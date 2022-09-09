@@ -29,13 +29,13 @@ Proyect by Maiker Obando - Wash Wonder - Bootstrap
                
                 <ul class="nav col-md-6 justify-content-center d-none d-xl-flex">
                     <li><a href="../index.html" class="nav-link px-3 link-light text-white-50 ">HOME</a></li>
-                    <li><a href="./servicios.html" class="nav-link px-3 link-light text-white-50 ">SERVICIOS</a></li>
-                    <li><a href="./wonder-shop.html" class="nav-link px-3 link-light text-white-50 ">WONDER SHOP</a></li>
-                    <li><a href="./cursos.html" class="nav-link px-3 link-light text-white-50 ">CURSOS</a></li>
-                    <li><a href="./contactos.html" class="nav-link px-3 link-light text-white-50 ">CONTACTOS</a></li>
+                    <li><a href="servicios.html" class="nav-link px-3 link-light text-white-50 ">SERVICIOS</a></li>
+                    <li><a href="wonder-shop.html" class="nav-link px-3 link-light text-white-50 ">WONDER SHOP</a></li>
+                    <li><a href="cursos.html" class="nav-link px-3 link-light text-white-50 ">CURSOS</a></li>
+                    <li><a href="contactos.html" class="nav-link px-3 link-light text-white-50 ">CONTACTOS</a></li>
                 </ul>
                 <!-- incons rrss -->
-                <div class="text-end d-flex rrss">
+                <div class="text-end d-flex rrss d-none d-sm-block">
                     <a href="https://www.facebook.com/"><img src="../assets/rrss/facebock.svg" width="40px" alt="facebock"></a>
                     <a href="https://www.instagram.com/"><img src="../assets/rrss/instragram.svg" width="40px" class="mx-3" alt="instagram"></a>
                     <a href="https://www.youtube.com/"><img src="../assets/rrss/youtube.svg" width="40px" alt="yotube"></a>
@@ -52,19 +52,19 @@ Proyect by Maiker Obando - Wash Wonder - Bootstrap
                         </li>
                         <hr class="featurette-divider bc-ww-fucsia">
                         <li class="nav-item me-4">
-                            <a class="nav-link text_color-ww-white" href="./servicios.html">SERVICIOS</a>
+                            <a class="nav-link text_color-ww-white" href="servicios.html">SERVICIOS</a>
                         </li>
                         <hr class="featurette-divider bc-ww-fucsia">
                         <li class="nav-item me-4">
-                            <a class="nav-link text_color-ww-white" href="./wonder-shop.html">WONDER SHOP</a>
+                            <a class="nav-link text_color-ww-white" href="wonder-shop.html">WONDER SHOP</a>
                         </li>
                         <hr class="featurette-divider bc-ww-fucsia">
                         <li class="nav-item me-4">
-                            <a class="nav-link text_color-ww-morado" aria-current="page" href="./cursos.html">CURSOS</a>
+                            <a class="nav-link text_color-ww-morado" aria-current="page" href="cursos.html">CURSOS</a>
                         </li>
                         <hr class="featurette-divider bc-ww-fucsia">
                         <li class="nav-item me-4">
-                            <a class="nav-link text_color-ww-white" href="./contactos.html">CONTACTOS</a>
+                            <a class="nav-link text_color-ww-white" href="contactos.html">CONTACTOS</a>
                         </li>
                     </ul>
                 </div>
@@ -196,38 +196,43 @@ Proyect by Maiker Obando - Wash Wonder - Bootstrap
     </main>
 
 
-
-    <footer class="container container-lg-1 my-4 mt-5">
-        <div class="line-gradient-solid my-4"></div>
-
-        <div class="d-flex flex-wrap justify-content-between align-items-center my-1">
-            <p class="col-md-4 mb-0 text-muted">&copy;2022 WASH WONDER. Power by <a class="maikerobando-color" href="https://www.instagram.com/maiker23/"><span class="font-weight">Maiker Obando</span></a></p>
-
-            <a href="../index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark">
-                <img src="../assets/logo_ww_negro.png" width="120px"><use xlink:href="#bootstrap" />
-            </a>
-
-            <ul class="nav col-md-4 justify-content-end">
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Servicios</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Wonder Shop</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Cursos</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contacto</a></li>
-            </ul>
+    <footer class="mt-5">
+        <div class="line-gradient-solid mt-4 mb-2"></div>
+        
+        <div class="justify-content-between align-items-center text-center">
+            <div class="container">
+                <ul class="nav d-flex justify-content-center">
+                    <li class="nav-item"><a href="../index.html" class="nav-link fw-light fs-5 px-2 ">Home</a></li>
+                    <li class="nav-item"><a href="servicios.html" class="nav-link fw-light fs-5 px-2 ">Servicios</a></li>
+                    <li class="nav-item"><a href="wonder-shop.html" class="nav-link fw-light fs-5 px-2 ">Wonder Shop</a></li>
+                    <li class="nav-item"><a href="cursos.html" class="nav-link fw-light fs-5 px-2 text_color-ww-fucsia">Cursos</a></li>
+                    <li class="nav-item"><a href="contactos.html" class="nav-link fw-light fs-5 px-2 ">Contactos</a></li>
+                </ul>
+            </div>
+            <hr class="container-sm mb-5">
+            <div>
+                <a href="../index.html" class="d-flex justify-content-center m-4  ">
+                    <img class="" src="../assets/logo_ww_negro.png" width="160px"><use xlink:href="#bootstrap" />
+                </a>
+            </div>             
+            
+            <div class="bg-dark mt-5">
+                <p class="py-3 text-white">&copy;2022 WASH WONDER. Power by <a href="https://www.instagram.com/maiker23/"><span class="fw-bold text_color-ww-verde"> Maiker Obando</span></a></p>
+            </div>           
         </div>
     </footer>
 
 
     <!-- whatsapp fijo -->
     <div class="whatsapp-qr">
-        <a href="">
-            <img src="../assets/icons/whatsapp_qr.svg" alt="whastapp" width="150px" />
+        <a href="https://api.whatsapp.com/send/?phone=%2B56949157263&text&type=phone_number&app_absent=0">
+            <img src="../assets/icons/whatsapp_qr.svg" alt="whastapp WashWonder" width="150px" />
         </a>
     </div>
 
     <div class="whatsapp-icon">
-        <a href="">
-            <img src="../assets/icons/whatsapp_icon.svg" alt="whastapp" width="80px" />
+        <a href="https://api.whatsapp.com/send/?phone=%2B56949157263&text&type=phone_number&app_absent=0">
+            <img src="../assets/icons/whatsapp_icon.svg" alt="whastapp Wash Wonder" width="80px" />
         </a>
     </div>
 
