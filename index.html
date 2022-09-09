@@ -20,23 +20,53 @@ Proyect by Maiker Obando - Wash Wonder - Bootstrap
 <body>
     <header class="fixed-top sticky-top">
         <nav class="nav_ww">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-1 container" >
-                <a href="" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark">
-                    <img class="bi" src="./assets/logo_ww_blanco.png" width="90Px"><use xlink:href="#bootstrap" />
+            <div class="d-flex flex-wrap align-items-center justify-content-between justify-content-lg-between mb-1 container-xxl" >
+                <!-- logo -->
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-md-0 text-dark">
+                    <img class="" src="./assets/logo_ww_blanco.png" width="90Px"><use xlink:href="#bootstrap" />
                 </a>
-    
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="index.html" class="nav-link px-2 link-light text-white-50">HOME</a></li>
-                    <li><a href="./pages/servicios.html" class="nav-link px-2 link-light text-white-50">SERVICIOS</a></li>
-                    <li><a href="./pages/wonder-shop.html" class="nav-link px-2 link-light text-white-50">WONDER SHOP</a></li>
-                    <li><a href="./pages/cursos.html" class="nav-link px-2 link-light text-white-50">CURSOS</a></li>
-                    <li><a href="./pages/contactos.html" class="nav-link px-2 link-light text-white-50">CONTACTO</a></li>
+                <!-- pages -->
+               
+                <ul class="nav col-md-6 justify-content-center d-none d-xl-flex">
+                    <li><a href="index.html" class="nav-link px-3 link-light text-white-50 ">HOME</a></li>
+                    <li><a href="./pages/servicios.html" class="nav-link px-3 link-light text-white-50 ">SERVICIOS</a></li>
+                    <li><a href="./pages/wonder-shop.html" class="nav-link px-3 link-light text-white-50 ">WONDER SHOP</a></li>
+                    <li><a href="./pages/cursos.html" class="nav-link px-3 link-light text-white-50 ">CURSOS</a></li>
+                    <li><a href="./pages/contactos.html" class="nav-link px-3 link-light text-white-50 ">CONTACTOS</a></li>
                 </ul>
-    
-                <div class="col-md-3 text-end rrss">
-                    <a href="https://www.facebook.com/"><img src="./assets/rrss/facebock.svg" width="35px" alt="facebock"></a>
-                    <a href="https://www.instagram.com/"><img src="./assets/rrss/instragram.svg" width="35px" alt="instagram"></a>
-                    <a href="https://www.youtube.com/"><img src="./assets/rrss/youtube.svg" width="35px" alt="yotube"></a>
+                <!-- incons rrss -->
+                <div class="text-end d-flex rrss">
+                    <a href="https://www.facebook.com/"><img src="./assets/rrss/facebock.svg" width="40px" alt="facebock"></a>
+                    <a href="https://www.instagram.com/"><img src="./assets/rrss/instragram.svg" width="40px" class="mx-3" alt="instagram"></a>
+                    <a href="https://www.youtube.com/"><img src="./assets/rrss/youtube.svg" width="40px" alt="yotube"></a>
+                </div>
+                <!-- incon menu -->                  
+                <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><img src="./assets/icons/icon_menu.svg" width="38px" alt="Menu Wash Wonder"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <hr class="featurette-divider bc-ww-fucsia mx-1 mt-4">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-end">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text_color-ww-white" href="index.html">HOME</a>
+                        </li>
+                        <hr class="featurette-divider bc-ww-fucsia">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text_color-ww-morado" aria-current="page" href="./pages/servicios.html">SERVICIOS</a>
+                        </li>
+                        <hr class="featurette-divider bc-ww-fucsia">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text_color-ww-white" aria-current="page" href="./pages/wonder-shop.html">WONDER SHOP</a>
+                        </li>
+                        <hr class="featurette-divider bc-ww-fucsia">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text_color-ww-white" href="./pages/cursos.html">CURSOS</a>
+                        </li>
+                        <hr class="featurette-divider bc-ww-fucsia">
+                        <li class="nav-item me-4">
+                            <a class="nav-link text_color-ww-white" href="./pages/contactos.html">CONTACTOS</a>
+                        </li>
+                    </ul>
                 </div>
             </div>       
         </nav>
@@ -164,8 +194,7 @@ Proyect by Maiker Obando - Wash Wonder - Bootstrap
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="./assets/imagenes/500x500/500x500_06.jpg" alt="" />
                 </div>
             </div>                    
-        </section>        
-         
+        </section>
     </main>
 
 

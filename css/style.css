@@ -59,6 +59,10 @@ h1 {
     background-color: #4D75B8;
 }
 
+.text_color-ww-white {
+    color: #ffffff;
+}
+
 .text_color-ww-fucsia {
     color: #ec1492;
 }
@@ -114,22 +118,19 @@ h1 {
 
 
 
-
-
-
 /* Header */
 .nav_ww {
     border-bottom: #ec1492 2px solid;
     background-color: rgba(13, 13, 13, 0.94);      
     z-index: 2;
     padding: 15px 0px;
-    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 100);  
-
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 100);
 }
 
 .rrss img {
-    margin-left: 8px;
-    transition: all 0.2s;
+    /* padding: 5px; */
+    /* margin-left: 8px; */
+    transition: all 0.3s;
 }
 
 .rrss img:hover {
@@ -157,6 +158,8 @@ h1 {
     background-color: #E63E8E;
     border: #482464;
 }
+
+
 
 .maikerobando-color {color: #50B58B;}
 
@@ -225,7 +228,11 @@ h1 {
 }
 
 
-
+@media (max-width: 375px) {  
+    .rrss {
+        display: none;
+    }
+}
 
 
 
