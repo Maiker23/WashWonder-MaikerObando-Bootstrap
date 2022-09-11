@@ -32,13 +32,14 @@
    inkscape:window-height="1017"
    id="namedview13"
    showgrid="false"
-   inkscape:zoom="16.888535"
-   inkscape:cx="25.165001"
-   inkscape:cy="25.165001"
+   inkscape:zoom="8.4442675"
+   inkscape:cx="16.604484"
+   inkscape:cy="32.363665"
    inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="Capa_1"
+   inkscape:document-rotation="0" />
 <style
    type="text/css"
    id="style2">
@@ -46,11 +47,7 @@
 	.st1{fill:#623883;}
 	.st2{fill:#E63E8E;enable-background:new    ;}
 </style>
-<path
-   class="st0"
-   d="M27.62,47.51V30.44c0-1.56,1.27-2.83,2.83-2.83h17.07c1.56,0,2.83,1.27,2.83,2.83v17.07  c0,1.56-1.27,2.83-2.83,2.83H30.44C28.88,50.33,27.62,49.07,27.62,47.51z"
-   id="path4"
-   style="fill:#ffffff" />
+
 <path
    class="st1"
    d="M0,47.51V30.44c0-1.56,1.27-2.83,2.83-2.83h17.07c1.56,0,2.83,1.27,2.83,2.83v17.07c0,1.56-1.27,2.83-2.83,2.83  H2.83C1.27,50.33,0,49.07,0,47.51z"
@@ -61,7 +58,11 @@
    id="path8" />
 <path
    class="st0"
-   d="M0,19.89V2.83C0,1.27,1.27,0,2.83,0h17.07c1.56,0,2.83,1.27,2.83,2.83v17.07c0,1.56-1.27,2.83-2.83,2.83H2.83  C1.27,22.72,0,21.45,0,19.89z"
+   d="M 0.72842646,19.469217 V 3.3769581 c 0,-1.4715079 1.19795824,-2.66946616 2.66946614,-2.66946616 H 19.499584 c 1.471507,0 2.669466,1.19795826 2.669466,2.66946616 V 19.47865 c 0,1.471507 -1.197959,2.669466 -2.669466,2.669466 H 3.3978926 C 1.9263847,22.138683 0.72842646,20.940724 0.72842646,19.469217 Z"
    id="path10"
-   style="fill:#ffffff" />
-</svg>
+   style="fill:none;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" />
+<path
+   class="st0"
+   d="M 28.163116,46.924841 V 30.832582 c 0,-1.471508 1.197958,-2.669466 2.669466,-2.669466 h 16.101692 c 1.471507,0 2.669466,1.197958 2.669466,2.669466 v 16.101692 c 0,1.471507 -1.197959,2.669466 -2.669466,2.669466 H 30.832582 c -1.471508,-0.0094 -2.669466,-1.207392 -2.669466,-2.678899 z"
+   id="path868"
+   style="fill:none;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:normal" /></svg>
