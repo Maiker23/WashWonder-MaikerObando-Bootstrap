@@ -39,6 +39,18 @@ h1 {
 
 
 /* FRAMEWORK - WashWonder */
+.ff-ww-Montserrat-black {
+    font-family: "Montserrat-Black";
+}
+
+.ff-ww-Montserrat-bold {
+    font-family: "Montserrat-Bold";
+}
+
+.ff-ww-Montserrat-ligth {
+    font-family: "Montserrat-Ligth";
+}
+
 .bg_color-ww-fucsia {
     background-color: #ec1492;
 }
@@ -77,18 +89,6 @@ h1 {
 
 .text_color-ww-azul {
     color: #4D75B8;
-}
-
-.ff-ww-Montserrat-black {
-    font-family: "Montserrat-Black";
-}
-
-.ff-ww-Montserrat-bold {
-    font-family: "Montserrat-Bold";
-}
-
-.ff-ww-Montserrat-ligth {
-    font-family: "Montserrat-Ligth";
 }
 
 .bc-ww-fucsia {
@@ -135,9 +135,68 @@ h1 {
     filter: brightness(100%) saturate(0);
 }
 
-.centrar-textaling {
-    text-align: center;
+
+/* banners carousel */
+.ww-placeholder-banner01 {
+    background-image: url('../assets/imagenes/banner_home_02.jpg');
+    background-size: cover;   
+    background-position: center;  
+    height: 600px;
+    fill: #777;    
 }
+
+#logo-hexagonal-ww {
+    width: 360px;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    right: 10vh;   
+    transform: rotateY(90deg);
+    animation: logo-hexa-ww 2s both;
+    transition: all 2s ease;
+}
+
+#logo-hexagonal-ww:hover {
+    scale: 105%;
+}
+
+@keyframes logo-hexa-ww {
+    0% {
+        transform: rotateY(90deg);
+    }
+
+    35% {
+        transform: rotateY(90deg);
+    }
+
+    70% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+
+
+.ww-placeholder-banner02 {
+    background-image: url('../assets/imagenes/banner_home_03.jpg');
+    background-size: cover;   
+    background-position: center;  
+    height: 600px;
+    fill: rgb(71, 71, 71);    
+}
+
+.ww-placeholder-banner03 {
+    background-image: url('../assets/imagenes/banner_home_04.jpg');
+    background-size: cover;   
+    background-position: center;  
+    height: 600px;
+    fill: rgb(74, 74, 74);    
+}
+/* banners carousel */
+
 
 .carousel-control-next-icon {
     filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);
@@ -147,14 +206,10 @@ h1 {
     filter: invert(50%) sepia(60%) saturate(9500%) hue-rotate(318deg) brightness(105%) contrast(85%);
 }
 
+
 .btn-primary {
     background-color: #ec1492;
     border-color: #482464;
-}
-
-.bt_bg_color-verde {
-    background-color: #E63E8E;
-    border: #482464;
 }
 
 
@@ -164,18 +219,15 @@ h1 {
 }
 
 
-
-
-
 .line-gradient-solid {
-    /* por si no soporta gradient el navegador */
+    /* por si no llegara a soportar gradient el navegador */
     background-color: #482464;
     background-image: linear-gradient(to left, #E63E8E, #6D4795, #4A77BA, #3CBDE4, #56B584);
     height: 5px;
 }
 
 .line-gradient {
-    /* por si no soporta gradient el navegador */
+    /* por si no llegara a soportar gradient el navegador */
     background-color: #482464;
     background-image: linear-gradient(to left, #E63E8E, #6D4795, #4A77BA, #3CBDE4, #56B584);
     height: 6px;
@@ -236,8 +288,26 @@ h1 {
         display: flex;
         position: fixed;
         z-index: 5;
-        bottom: 8px;
+        bottom: 4rem;
         right: 8px;
+    }
+
+    .ww-placeholder-banner01 {
+        height: 400px;          
+    }
+    
+    .ww-placeholder-banner02 {
+        height: 400px;          
+    }
+   
+    .ww-placeholder-banner03 {
+        height: 400px;          
+    }
+    
+    #logo-hexagonal-ww {
+        width:150px;
+        top: 2vh;
+        left: 15%;         
     }
 }
 
